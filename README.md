@@ -22,14 +22,12 @@ This port scanner utilizes multithreading in Python to achieve very fast scan sp
 ## Usage
 
 The scanner accepts the following command line arguments:
-```
--h, --help            Show help message and exit
-```      
-```-V, --ip```        IP address to target for scanning
-```-s, --start```     Starting port number (default 1)
-```-e, --end```       Ending port number (default 65535)
-```-t, --threads```   Number of threads to use (default 500)
-```-V, --verbose```   Verbose output showing open ports
+- ```-h, --help```= Show help message and exit      
+- ```-V, --ip```= IP address to target for scanning
+- ```-s, --start```= Starting port number (default 1)
+- ```-e, --end```= Ending port number (default 65535)
+- ```-t, --threads```= Number of threads to use (default 500)
+- ```-V, --verbose```= Verbose output showing open ports
 
 ## Installation 
 ### Clone Repository:
