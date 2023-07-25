@@ -23,8 +23,8 @@ This port scanner utilizes multithreading in Python to achieve very fast scan sp
 
 The scanner accepts the following command line arguments:
 ```
--h, --help
-```      Show help message and exit
+-h, --help            Show help message and exit
+```      
 ```-V, --ip```        IP address to target for scanning
 ```-s, --start```     Starting port number (default 1)
 ```-e, --end```       Ending port number (default 65535)
