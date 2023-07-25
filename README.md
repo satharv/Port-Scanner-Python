@@ -12,7 +12,7 @@ This port scanner utilizes multithreading in Python to achieve very fast scan sp
   - Scans most common ranges in seconds
 - Target any IPv4 address or hostname
   - Scan local or external IPs and hosts
-- Verbose output shows open ports in real time
+- Verbose output shows open ports in real-time
   - See results as they are found, no waiting until the end
   - Great for monitoring progress during longer scans
 - Lightweight Python script without dependencies
@@ -22,16 +22,17 @@ This port scanner utilizes multithreading in Python to achieve very fast scan sp
 ## Usage
 
 The scanner accepts the following command line arguments:
-```-h, --help```      Show help message and exit
-```-V, --ip```        IP address to target for scanning
-```-s, --start```     Starting port number (default 1)
-```-e, --end```       Ending port number (default 65535)
-```-t, --threads```   Number of threads to use (default 500)
-```-V, --verbose```   Verbose output showing open ports
+- ```-h, --help```      Show help message and exit
+- ```-V, --ip```        IP address to target for scanning
+- ```-s, --start```     Starting port number (default 1)
+- ```-e, --end```       Ending port number (default 65535)
+- ```-t, --threads```   Number of threads to use (default 500)
+- ```-V, --verbose```   Verbose output showing open ports
+
 ## Installation 
-Clone Repository:
+### Clone Repository:
 ```git clone https://github.com/satharv/Port-Scanner-Python```
-Unzip and run:
+### Unzip and run:
 ```cd Port-Scanner-Python-main```
 
 ### To scan ports 1-65535 on 192.168.1.100 with 200 threads:
