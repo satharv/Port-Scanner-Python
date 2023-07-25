@@ -32,7 +32,7 @@ The scanner accepts the following command line arguments:
 ## Installation 
 ### Clone Repository:
 ```
-git clone https://github.com/satharv/Port-Scanner-Python
+git clone https://github.com/satharv/Port-Scanner-Python.git
 ```
 ### Unzip and run:
 ```
@@ -49,3 +49,6 @@ python portscanner.py -V 192.168.1.100 -t 200
 python portscanner.py -V 192.168.1.100 -s 1 -e 1000 -V
 ```
 The verbose output will print open ports to the screen as they are discovered.
+
+## Contact
+Let me know if you have any questions, issues, or suggested improvements! I can be reached at ```atharvvvsharma@gmail.com```
