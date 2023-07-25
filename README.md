@@ -31,13 +31,21 @@ The scanner accepts the following command line arguments:
 
 ## Installation 
 ### Clone Repository:
-```git clone https://github.com/satharv/Port-Scanner-Python```
+```
+git clone https://github.com/satharv/Port-Scanner-Python
+```
 ### Unzip and run:
-```cd Port-Scanner-Python-main```
+```
+cd Port-Scanner-Python-main
+```
 
 ### To scan ports 1-65535 on 192.168.1.100 with 200 threads:
-```python portscanner.py -V 192.168.1.100 -t 200```
+```
+python portscanner.py -V 192.168.1.100 -t 200
+```
 
 ### To scan a smaller range with verbose output:
-```python portscanner.py -V 192.168.1.100 -s 1 -e 1000 -V```
+```
+python portscanner.py -V 192.168.1.100 -s 1 -e 1000 -V
+```
 The verbose output will print open ports to the screen as they are discovered.
